@@ -17,4 +17,4 @@ project(ArduinoExample C CXX ASM)
 print_board_list()
 print_programmer_list()
 
-add_subdirectory(example)   #add the example directory into build
+add_subdirectory(src)   #add the example directory into build
