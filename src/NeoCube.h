@@ -1,0 +1,1 @@
+#define REDUCED_MODES

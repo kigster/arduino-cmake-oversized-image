@@ -1,6 +1,6 @@
-#define REDUCED_MODES 1 // sketch is too big for Arduino w/32k flash, so invoke reduced modes
-
-#include <WS2812FX.h>
+#include "NeoCube.h"
+#define REDUCED_MODES 1
+#include "libraries/WS2812FX/WS2812FX.h"
 
 #define LED_COUNT 15
 #define LED_PIN 4
