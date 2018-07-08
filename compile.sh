@@ -5,7 +5,7 @@ dir=./build
 
 rm -rf ${dir} && mkdir -p ${dir}
 
-cd ${dir} && cmake -DCMAKE_BUILD_TYPE=MinSizeRel .. && make -j 5
+cd ${dir} && cmake .. && make -j 5
 
 
 
